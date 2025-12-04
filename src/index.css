@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-roboto: "Roboto", sans-serif;
+  --color-deep-indigo: #1c1c35;
+  --color-bright-magenta: #ff33cc;
+  --color-lime-green: #bfff00;
+  --color-gold-yellow: #ffd700;
+  --color-light-lavender: #f0f0ff; /*Main body text..*/
+  --color-soft-grey: #aabbdd; /*Subheadings, dates, footnotes..*/
+  --color-electric-blue: #3366ff; /*A contrasting cool color for links.*/
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
