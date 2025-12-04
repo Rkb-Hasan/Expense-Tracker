@@ -5,9 +5,11 @@ export default function PrivateRoute() {
   return (
     <>
       <Header />
-      <div>
-        <Outlet />
-      </div>
+      <main className="mx-auto max-w-[1120px] py-8">
+        <div className="container">
+          <Outlet />
+        </div>
+      </main>
     </>
   );
 }
